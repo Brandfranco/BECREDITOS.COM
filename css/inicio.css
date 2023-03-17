@@ -54,7 +54,7 @@ text-align: center;
 
 }
 .textos-header h1{
-    font-size: 50px;
+    font-size: 80px;
     color: #fff;
 }
 .textos-header h2{
@@ -158,34 +158,36 @@ text-align: justify;
 .cards{
     display: flex;
     justify-content: space-evenly;
+    color: #fff;
 
 }
 .cards .card{
     background: #4d0686;
     display: flex;
     width: 46%;
-    height: 200px;
+    height: 250px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .6);
 }
 .cards .card img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    display: block;
+    border: 0px solid #fff;
+    border-radius: 100%;
+    display:block;
 
 }
 .cards .card > .contenido-texto-card{
     width: 60%;
-    color: #fff;
+   
 }
 .cards .card > .contenido-texto-card p{
-    font-weight: 300px;
+    font-weight: 150px;
     padding-top: 5px;
+    text-align: justify;
 }
 
 /*espacio calidad en los servicios*/
@@ -212,7 +214,7 @@ text-align: justify;
 }
 .servicio-ind p{
     font-weight: 300px;
-    text-align: justify;
+    
 }
 /*footer*/
 footer{
@@ -251,6 +253,31 @@ footer{
   margin: 200px 0 0 0;
   color: #9e9799;
 }
+input[type="submit"]{
+    width: 100%;
+    border: 1px solid ;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+    background:#af20d3;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+input[type =submit]:hover{
+    
+background: #7F00FF;
+}
+.contenedor h3{
+    color: #4d0686;
+}
+.container p{
+font-weight: 300px;
+text-align: justify;
+}
+
 
 @media screen and (max-width:900px){
     header{
@@ -370,4 +397,3 @@ flex-direction: column;
  }
 
 }
-
