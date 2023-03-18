@@ -4,7 +4,7 @@
     box-sizing: 0;
 }
 body{
-font-family: 'open sans';
+font-family: 'open sans'; /*fuente de letra*/
 }
 .contenedor{
     padding:60px 0 ;
@@ -244,6 +244,7 @@ footer{
 }
 .content-foo p{
     color: #ccc;
+    text-align: center;
 
 }
 
